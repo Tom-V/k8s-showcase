@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TomV-K8s-Showcase", "k8s-test\TomV-K8s-Showcase.csproj", "{20CF6ACA-1D00-486F-A57D-BDF8FB70C969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8s", "K8s", "{BEC21694-8E55-4985-A53B-00478A0CB2C2}"
+	ProjectSection(SolutionItems) = preProject
+		k8s\1.yaml = k8s\1.yaml
+		k8s\2.yaml = k8s\2.yaml
+		k8s\3.yaml = k8s\3.yaml
+		k8s\4.yaml = k8s\4.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B22E75A-3A47-4168-86DB-343204730DB8}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5AA24A51-D5AB-439E-9480-5B4E9C48F709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20CF6ACA-1D00-486F-A57D-BDF8FB70C969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CF6ACA-1D00-486F-A57D-BDF8FB70C969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CF6ACA-1D00-486F-A57D-BDF8FB70C969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CF6ACA-1D00-486F-A57D-BDF8FB70C969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA24A51-D5AB-439E-9480-5B4E9C48F709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA24A51-D5AB-439E-9480-5B4E9C48F709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA24A51-D5AB-439E-9480-5B4E9C48F709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA24A51-D5AB-439E-9480-5B4E9C48F709}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CDD9851-8BCA-48C9-8B2F-9E918523AAB1}
+	EndGlobalSection
+EndGlobal

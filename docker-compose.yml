@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tomv-k8s-showcase:
+    image: ${DOCKER_REGISTRY-}tomvk8sshowcase
+    build:
+      context: k8s-test
+      dockerfile: Dockerfile
